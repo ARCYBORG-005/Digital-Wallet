@@ -38,29 +38,28 @@ It connects to **MySQL** using the MySQL Connector JAR.
 ##  Project Structure
 
 DigitalWallet/
-│
-├── db/
-│   ├── DBConnection.java
-│   └── TestDB.java
-│
+ db/
+   ├── DBConnection.java
+  └── TestDB.java
+
 ├── dao/
-│   ├── ExpenseDao.java
-│   ├── UserDao.java
-│   └── WalletDao.java
-│
+  ├── ExpenseDao.java
+   ├── UserDao.java
+   └── WalletDao.java
+
 ├── model/
-│   ├── Expense.java
-│   ├── Transaction.java
-│   └── User.java
-│
+   ├── Expense.java
+  ├── Transaction.java
+  └── User.java
+
 ├── service/
-│   ├── ExpenseService.java
-│   ├── UserService.java
-│   └── WalletService.java
-│
+  ├── ExpenseService.java
+  ├── UserService.java
+ └── WalletService.java
+
 ├── main/
-│   └── MainApp.java
-│
+   └── MainApp.java
+
 └── lib/
     └── mysql-connector-j.jar
 
@@ -111,12 +110,12 @@ Contains business logic:
 
 ##  Features
 
-✔ User Registration
-✔ Add Money to Wallet
-✔ Record Expenses
-✔ View Transaction History
-✔ Validate Transactions
-✔ Check Wallet Balance
+ User Registration
+ Add Money to Wallet
+ Record Expenses
+ View Transaction History
+ Validate Transactions
+ Check Wallet Balance
 
 
 
